@@ -7,7 +7,7 @@
   - [x] 2.1 `types.ts` as in design _(written by Claude, not run in Kiro)_
   - [x] 2.2 `rng.ts` mulberry32, pure; unit test fixed sequence _Requirements: 6.1_ _(written by Claude, not run in Kiro)_
 - [ ] 3. Spawning and rounds
-  - [ ] 3.1 `spawn.ts` four corners, seeded shuffle _Requirements: 6.1_
+  - [x] 3.1 `spawn.ts` four corners, seeded shuffle _Requirements: 6.1_
   - [ ] 3.2 `newGame(seed, riders)` and `newRound(state)` _Requirements: 1.6, 2.5_
 - [ ] 4. Step
   - [ ] 4.1 turns and reversal rule _Requirements: 1.2, 1.3_

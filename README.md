@@ -29,6 +29,7 @@ npm run lint      # includes the module-boundary rules from .kiro/steering/tech.
 | Task 2.1 `src/engine/types.ts` | Claude, not run in Kiro |
 | Task 2.2 `src/engine/rng.ts` and its tests | Claude, not run in Kiro |
 | Task 3.1 `src/engine/spawn.ts` and its tests | Kiro (spec task, execution 3fe4e2d3…), reviewed by Claude, committed unchanged |
+| Task 3.2 `src/engine/game.ts` (`newGame`, `newRound`) and its tests | Kiro (spec task, execution b14e4262…), reviewed by Claude, committed unchanged |
 
 Tasks run in Kiro will be added here with their execution ids as they happen.
 

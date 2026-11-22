@@ -12,6 +12,25 @@
         "chatSessionId": "sess_409b2c52-42f5-41d6-9f59-a0cacac984b4",
         "timestamp": 1795330049104
       }
+    ],
+    "3.2 `newGame(seed, riders)` and `newRound(state)` _Requirements: 1.6, 2.5_": [
+      {
+        "executionId": "b14e4262-5467-4379-8770-579885025d1f",
+        "chatSessionId": "sess_9fe94d8d-cdb5-47f4-9c85-1ddca6d8ca9a",
+        "timestamp": 1795330168605
+      },
+      {
+        "executionId": "b14e4262-5467-4379-8770-579885025d1f",
+        "chatSessionId": "sess_9fe94d8d-cdb5-47f4-9c85-1ddca6d8ca9a",
+        "timestamp": 1795330244881
+      }
+    ],
+    "3. Spawning and rounds": [
+      {
+        "executionId": "b14e4262-5467-4379-8770-579885025d1f",
+        "chatSessionId": "sess_9fe94d8d-cdb5-47f4-9c85-1ddca6d8ca9a",
+        "timestamp": 1795330245001
+      }
     ]
   }
 }

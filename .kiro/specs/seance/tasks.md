@@ -1,11 +1,11 @@
 # Tasks: SSH Séance
 
 - [ ] 1. Project skeleton
-  - [ ] 1.1 package.json, tsconfig (strict), Vitest, fast-check, ESLint with the module-boundary rules from tech.md
+  - [x] 1.1 package.json, tsconfig (strict), Vitest, fast-check, ESLint with the module-boundary rules from tech.md _(written by Claude, not run in Kiro)_
   - [ ] 1.2 GitHub Actions: lint + test on push; Pages deploy of the web door
-- [ ] 2. Engine types and rng
-  - [ ] 2.1 `types.ts` as in design
-  - [ ] 2.2 `rng.ts` mulberry32, pure; unit test fixed sequence _Requirements: 6.1_
+- [x] 2. Engine types and rng
+  - [x] 2.1 `types.ts` as in design _(written by Claude, not run in Kiro)_
+  - [x] 2.2 `rng.ts` mulberry32, pure; unit test fixed sequence _Requirements: 6.1_ _(written by Claude, not run in Kiro)_
 - [ ] 3. Spawning and rounds
   - [ ] 3.1 `spawn.ts` four corners, seeded shuffle _Requirements: 6.1_
   - [ ] 3.2 `newGame(seed, riders)` and `newRound(state)` _Requirements: 1.6, 2.5_

@@ -1,0 +1,42 @@
+# Tasks: SSH Séance
+
+- [ ] 1. Project skeleton
+  - [ ] 1.1 package.json, tsconfig (strict), Vitest, fast-check, ESLint with the module-boundary rules from tech.md
+  - [ ] 1.2 GitHub Actions: lint + test on push; Pages deploy of the web door
+- [ ] 2. Engine types and rng
+  - [ ] 2.1 `types.ts` as in design
+  - [ ] 2.2 `rng.ts` mulberry32, pure; unit test fixed sequence _Requirements: 6.1_
+- [ ] 3. Spawning and rounds
+  - [ ] 3.1 `spawn.ts` four corners, seeded shuffle _Requirements: 6.1_
+  - [ ] 3.2 `newGame(seed, riders)` and `newRound(state)` _Requirements: 1.6, 2.5_
+- [ ] 4. Step
+  - [ ] 4.1 turns and reversal rule _Requirements: 1.2, 1.3_
+  - [ ] 4.2 movement and trail _Requirements: 1.1_
+  - [ ] 4.3 collisions: wall, trail, head-on _Requirements: 1.4, 1.5_
+  - [ ] 4.4 round end and intermission _Requirements: 1.6_
+  - [ ] 4.5 property tests P1, P2, P5
+- [ ] 5. Ghosts
+  - [ ] 5.1 crash → ghost conversion _Requirements: 2.1, 2.4_
+  - [ ] 5.2 ghost advance and `ghostCells` _Requirements: 2.2, 2.3_
+  - [ ] 5.3 ghosts block riders; cleared on new round _Requirements: 1.4, 2.5_
+- [ ] 6. Determinism
+  - [ ] 6.1 replay test P3 _Requirements: 6.2_
+- [ ] 7. Bots
+  - [ ] 7.1 `botMove` look-ahead with seeded tie-break
+  - [ ] 7.2 test: a bot alone survives at least 100 ticks on an empty arena
+- [ ] 8. Render
+  - [ ] 8.1 `render/ansi.ts` frame, status line, legend _Requirements: 4.3, 4.4, 6.3_
+  - [ ] 8.2 property test P4; snapshot test of one known state
+- [ ] 9. Keys
+  - [ ] 9.1 `ssh/keys.ts` wasd, hjkl, q/Esc/Ctrl+C; last key per tick wins _Requirements: 3.1, 3.2, 3.4, 3.5_
+- [ ] 10. Web door
+  - [ ] 10.1 Vite + xterm page, 1 human + 3 bots, 100 ms loop _Requirements: 4.1, 3.3_
+  - [ ] 10.2 Playwright: loads, key changes frame, no foreign requests _Requirements: 4.2_
+- [ ] 11. SSH door
+  - [ ] 11.1 ssh2 server, host key on first run, auth none _Requirements: 5.1_
+  - [ ] 11.2 shared game, bot fill, join next round, disconnect = crash _Requirements: 5.1, 5.2, 5.3, 5.5_
+  - [ ] 11.3 terminal size check and window-change _Requirements: 5.4_
+  - [ ] 11.4 integration test with ssh2.Client
+- [ ] 12. Submission
+  - [ ] 12.1 README: what was resurrected, how to play both doors, which tasks Kiro ran
+  - [ ] 12.2 demo video, Devpost copy (save, do not submit)
